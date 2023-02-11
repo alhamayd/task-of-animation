@@ -1,0 +1,139 @@
+*{
+
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+} 
+body{
+    position:relative; 
+    height: 3500px;
+}
+
+
+ 
+.div1{
+
+    width: 250px;
+    height:250px;
+    background-color: rgb(170, 167, 7);
+    position:absolute;
+    animation-name: change;
+    animation-duration: 5s;
+    border-radius: 20px;
+    
+    }
+    @keyframes change {
+    0% { background-color: brown; left:0;}
+    25% { background-color: blueviolet; left:275px; }
+    50% {background-color: black; left:550px;}
+    75% {background-color: aqua; left:825px; }
+    100% {background-color: rgb(245, 8, 8); left:1100px;}
+    
+    }
+
+
+.div2{
+  width: 250px;
+                height:250px;
+                background-color: rgb(18, 155, 6);
+                position:absolute;
+                animation-name: change;
+                animation-duration: 5s;
+                border-radius: 20px;
+                margin-top: 300px;
+              animation-direction:reverse;
+                animation-delay: 5s;
+                }
+                @keyframes change {
+                0% { background-color: 735d78; left:0;}
+                25% { background-color: b392ac; left:275px; }
+                50% {background-color: d1b3c4; left:550px;}
+                75% {background-color: e8c2ca; left:825px; }
+                100% {background-color: f7d1cd; left:1100px;}
+                
+                }
+                .div3{
+
+                    width: 250px;
+                    height:250px;
+                    background-color: rgb(4, 200, 214);
+                    position:absolute;
+                    animation-name: change;
+                    animation-duration: 5s;
+                    border-radius: 20px;
+                    margin-top: 600px;
+                    animation-delay: 10s;
+                    }
+                    @keyframes change {
+                    0% { background-color: fb6f92; left:0;}
+                    25% { background-color: ff8fab; left:275px; }
+                    50% {background-color: ffb3c6; left:550px;}
+                    75% {background-color: ffc2d1; left:825px; }
+                    100% {background-color: ffe5ec; left:1100px;}
+                    
+                    }
+                                           
+                    .div4{
+
+                        width: 250px;
+                        height:250px;
+                        background-color: rgb(19, 3, 161);
+                        position:absolute;
+                        animation-name: change;
+                        animation-duration: 5s;
+                        border-radius: 20px;
+                        margin-top: 900px;
+                        animation-delay: 15s;
+                        animation-direction:reverse;
+                        }
+                        @keyframes change {
+                        0% { background-color:344e41; left:0;}
+                        25% { background-color: 3a5a40; left:275px; }
+                        50% {background-color: 588157; left:550px;}
+                        75% {background-color: a3b18a; left:825px; }
+                        100% {background-color: dad7cd; left:1100px;}
+                        
+                        }
+
+                        .div5{
+
+                            width: 250px;
+                            height:250px;
+                            background-color: rgb(252, 22, 202);
+                            position:absolute;
+                            animation-name: change;
+                            animation-duration: 5s;
+                            border-radius: 20px;
+                            margin-top: 1200px;
+                            animation-delay: 20s;
+                            }
+                            @keyframes change {
+                            0% { background-color: ffbe0b; left:0;}
+                            25% { background-color: fb5607; left:275px; }
+                            50% {background-color: ff006e; left:550px;}
+                            75% {background-color: 8338ec; left:825px; }
+                            100% {background-color: 3a86ff; left:1100px;}
+                            
+                            }
+                            .div6{
+
+                                width: 250px;
+                                height:250px;
+                                background-color: rgb(247, 9, 9);
+                                 position:absolute; 
+                                animation-name: change;
+                                animation-duration: 5s;
+                                border-radius: 20px;
+                                margin-top: 1500px;
+                        
+                                animation-direction:reverse;
+                                animation-delay: 25s;
+                                }
+                                @keyframes change {
+                                0% { background-color: e76f51; left:0;}
+                                25% { background-color: f4a261; left:275px; }
+                                50% {background-color: e9c46a; left:550px;}
+                                75% {background-color: 2a9d8f; left:825px; }
+                                100% {background-color: 264653; left:1100px;}
+                                
+                                }
